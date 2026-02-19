@@ -6,6 +6,9 @@ This project involves a comprehensive analysis of the financial data provided by
 
 The Czechoslovakia Bank has provided a dataset containing information about its financial activities for the past 5 years. The dataset consists of 8 tables, namely Account, Card, Client, Disposition, District, Loan, Order, and Transaction. Each of these tables contains specific information related to the bank's operations.
 
+![Images](/Dashboard.png)
+![ER_Diagram](/ER_diagram.png)
+
 ## Ad-hoc Data Analysis
 
 The analysis involves answering some of the important questions that the bank has identified. These questions include understanding the demographic profile of the bank's clients and how it varies across different districts, identifying the most common types of accounts and cards used by the clients, analyzing the bank's expenses and loan portfolio, and exploring ways to improve customer service and satisfaction levels. The analysis will involve data cleaning, exploratory data analysis, and predictive modeling to identify patterns and trends in the data.
