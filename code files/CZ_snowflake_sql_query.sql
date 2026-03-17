@@ -260,7 +260,7 @@ SELECT * FROM CLIENT limit 10;
 
  SELECT MIN(DATE),MAX(DATE) FROM TRANSACTIONS;
 
- ----------- FILL NULL VALUES IN TTRANSACTIONS IN BANK FOR EVERY YEARS ------
+ ----------- FILL NULL VALUES IN TRANSACTIONS IN BANK FOR EVERY YEARS ------
 SELECT * FROM TRANSACTIONS WHERE BANK IS NULL AND YEAR(DATE)=2019;
 SELECT COUNT(*) FROM TRANSACTIONS WHERE BANK IS NULL AND YEAR(DATE)=2018;--NO BLANKS
 SELECT COUNT(*) FROM TRANSACTIONS WHERE BANK IS NULL AND YEAR(DATE)=2019;
@@ -407,19 +407,6 @@ SELECT * FROM CARD LIMIT 10;
 
 SELECT TYPE ,COUNT(*) FROM CARD
 GROUP BY 1 ORDER BY 2 DESC;
-
-/*5. What are the major expenses of the bank and how can they be reduced to improve profitability? */
-
-
-/* 6. What is the bank’s loan portfolio and how does it vary across different purposes and client segments? 
-
-
-/* 7. How can the bank improve its customer service and satisfaction levels? */
-
-
-/* 8. Can the bank introduce new financial products or services to attract more customers and 
-increase profitability?*/ 
-
 
 
 
