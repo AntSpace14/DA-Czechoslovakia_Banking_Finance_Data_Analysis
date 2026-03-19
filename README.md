@@ -41,7 +41,7 @@ The analysis aims to answer several key questions:
 | ------------- | ---------------------------------- |
 | **MS Excel**  | Initial data cleaning              |
 | **AWS S3**    | Cloud data storage                 |
-| **Snowflake** | Data warehouse and transformations |
+| **Snowflake** | Data warehouse and transformations & Cortex Ai querying |
 | **Snowpipe**  | Automated data ingestion           |
 | **Power BI**  | Dashboard development              |
 | **DAX**       | KPI calculations                   |
@@ -77,7 +77,7 @@ Data Cleaning (Excel)
 AWS S3 Data Lake
       │
       ▼
-Snowflake Data Warehouse
+Snowflake Data Warehouse & Cortex Ai
       │
       ▼
 Power BI Dashboard
@@ -218,11 +218,30 @@ Based on the analysis:
 
 ---
 
+# 🤖 Snowflake Cortex Analyst (Semantic Querying)
+
+To enhance accessibility of insights, Snowflake Cortex Analyst was used to enable 
+natural-language querying on structured datasets.
+
+This allows users to:
+- Query data using plain English instead of SQL
+- Retrieve insights without technical knowledge
+- Reduce dependency on ad-hoc SQL queries
+
+Example use cases:
+- "Show top banks by total balance"
+- "Which districts have highest average salary?"
+- "Loan default trends by account type"
+
+---
+
 # 🚀 Skills Demonstrated
 
 ✔ Cloud Data Storage (AWS S3)
 
 ✔ Data Warehousing (Snowflake)
+
+✔ Cortex Ai querying (Snowflake)
 
 ✔ Automated Data Pipelines (Snowpipe)
 
