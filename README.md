@@ -1,6 +1,6 @@
 # 🏦 Czechoslovakia Banking Financial Data Analysis
 
-An end-to-end **financial data analytics project** analyzing banking operations, customer demographics, loans, transactions, and account activity using **AWS S3, Snowflake, and Power BI**.
+An end-to-end **financial data analytics project** analyzing banking operations, customer demographics, loans, transactions, and account activity using **AWS S3, Snowflake, SQL and Power BI**.
 
 This project demonstrates a **modern cloud analytics pipeline** that transforms raw banking data into **interactive dashboards and actionable business insights**.
 
@@ -39,7 +39,6 @@ The analysis aims to answer several key questions:
 
 | Tool          | Purpose                            |
 | ------------- | ---------------------------------- |
-| **MS Excel**  | Initial data cleaning              |
 | **AWS S3**    | Cloud data storage                 |
 | **Snowflake** | Data warehouse and transformations & Cortex Ai querying |
 | **Snowpipe**  | Automated data ingestion           |
@@ -69,9 +68,6 @@ The project uses **8 relational tables** representing banking operations.
 
 ```text
 Raw Banking Data
-      │
-      ▼
-Data Cleaning (Excel)
       │
       ▼
 AWS S3 Data Lake
