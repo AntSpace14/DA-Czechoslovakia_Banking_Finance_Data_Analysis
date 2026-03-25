@@ -1,0 +1,19 @@
+BANK,ACCOUNT_ID,BALANCE,CARD_TYPE,LOAN_AMOUNT,LOAN_STATUS
+nanital BANK,1485,178774.4,Diamond,,
+Max bank,2282,156039.9,Gold,,
+Sky Bank,3507,120502.8,Gold,,
+Bank Creditas,1132,144510.5,Gold,,
+Moneta Money Bank,96,156580.3,Gold,,
+nothern BANK,1538,133602.1,Gold,,
+Hypotecni bank,96,154440.3,Gold,,
+DBS BANK,2216,105685.3,NOT_A_CARD,,
+ADB BANK,10973,122097.7,NOT_A_CARD,8647296,Contract Finished
+Czech export bank,4361,150627.4,Diamond,3065304,Contract Finished
+Air Bank,1749,130200.9,Silver,,
+Fio bank,1005,150457.8,NOT_A_CARD,,
+J&T Bank,5891,159892,Diamond,4628064,Contract Finished
+Kameron bank,1772,151677.1,NOT_A_CARD,9328248,Running Contract
+Raiffeisen bank,7859,146957.6,Diamond,3245400,Contract Finished
+PPF Bank,5228,142169,NOT_A_CARD,11471328,Contract Finished
+UniCredit Bank,441,165654.3,Silver,,
+Trinity Bank,96,153796.3,Gold,,
